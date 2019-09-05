@@ -1,0 +1,25 @@
+#main-header {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    font-weight: 200 ;
+    color: white;
+    background: transparent;
+    justify-content: center;
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 25%;
+}
+
+#main-header h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #54baa9;
+    font-size: 50px;
+    margin: 3px
+}
+
+#main-header small{
+    color: #f5f5f5;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}

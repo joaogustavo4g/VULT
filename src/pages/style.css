@@ -1,0 +1,146 @@
+.tools-list {
+    max-width: 55%;
+    margin: 1% auto 0;
+    padding: 20px 0;
+}
+
+.tools-list article {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.tools-list article h3 {
+    text-transform: uppercase;
+}
+
+.tools-list article p {
+    font-size: 16px;
+    color: #3a4142;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.tools-list article a {
+    height: 42;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    font-weight: '500';
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all, 0.2s;
+    color: #306666;
+}
+
+.tools-list article a:hover {
+    background: #da552f;
+    color: #fff;
+}
+
+.tools-list .tools-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.tools-list .tools-actions button {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 15%;
+}
+
+.tools-list .tools-actions button:hover {
+    opacity: 0.7;
+}
+
+.tools-list .tools-actions button[disabled] {
+    opacity: 0.7;
+    cursor: default;
+}
+
+.tools-list .tools-actions button[disabled]:hover {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.tools-list .tools-actions p {
+    margin-top: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.tools-list .tools-pesq {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tools-list .tools-pesq input[type=text] {
+    margin-right: 10px;
+    width: 25%;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+}
+
+.tools-list .tools-pesq button {
+    width: 15%;
+    border: 0;
+    background: #da552f;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 200;
+}
+
+.tools-list article #btn {
+    position: relative;
+    border: 0;
+    background: none;
+    float: right;
+    cursor: pointer;
+}
+
+.tools-list .tools-pesq .register-tools{
+    background: #306666;
+}
+
+.tools-list .tools-pesq .register-tools form{
+    display: flex;
+    padding: 10px auto 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tools-list .tools-pesq .register-tools form input {
+    background: #f5f5f5;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.tools-list .tools-pesq .register-tools form textarea {
+    background: #f5f5f5;
+    margin-top: 20px;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+}
+
